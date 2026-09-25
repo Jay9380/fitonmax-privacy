@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>FitOnMax 개인정보처리방침</title>
+<style>
+  :root { color-scheme: light dark; }
+  body {
+    margin: 0 auto; padding: 24px 20px 64px; max-width: 46rem;
+    font: 16px/1.75 -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Noto Sans KR", sans-serif;
+    color: #1c1c1e; background: #fff;
+  }
+  @media (prefers-color-scheme: dark) { body { color: #f2f2f7; background: #1c1c1e; } }
+  h1 { font-size: 1.6rem; margin: 0 0 .25em; }
+  h2 { font-size: 1.1rem; margin: 2em 0 .5em; }
+  .sub { color: #6b6b70; margin: 0 0 2em; font-size: .92rem; }
+  @media (prefers-color-scheme: dark) { .sub { color: #a1a1a6; } }
+  ul { padding-left: 1.25em; }
+  li { margin: .35em 0; }
+  table { border-collapse: collapse; width: 100%; margin: .5em 0 1em; font-size: .95rem; }
+  th, td { text-align: left; padding: .55em .6em; border-bottom: 1px solid rgba(128,128,128,.28); vertical-align: top; }
+  th { font-weight: 600; white-space: nowrap; }
+  .lead { background: rgba(52,199,89,.12); border-left: 3px solid #34c759; padding: .9em 1em; border-radius: 4px; }
+  footer { margin-top: 3em; font-size: .9rem; color: #6b6b70; }
+  @media (prefers-color-scheme: dark) { footer { color: #a1a1a6; } }
+  a { color: #007aff; }
+</style>
+</head>
+<body>
+
+<h1>개인정보처리방침</h1>
+<p class="sub">FitOnMax · 시행일 2026년 9월 25일</p>
+
+<p class="lead">
+FitOnMax는 <strong>계정도 서버도 없습니다.</strong> 회원가입이나 로그인이 없고,
+운영자가 운영하는 서버가 없으며, 사용자의 기록을 운영자가 보관하거나 열람하지 않습니다.
+기록은 사용자의 기기와, 사용자 본인의 iCloud에만 저장됩니다.
+</p>
+
+<h2>1. 기록이 저장되는 곳</h2>
+<ul>
+  <li><strong>기기</strong> — 운동·식단·체중 등 입력한 모든 기록은 먼저 기기 안에 저장됩니다.</li>
+  <li><strong>사용자 본인의 iCloud</strong> — 기기에 Apple 계정이 로그인돼 있으면 Apple의 CloudKit이
+      같은 계정을 쓰는 기기끼리 기록을 동기화합니다. 이 저장 공간은 <strong>사용자 본인의 것</strong>이고
+      운영자는 접근 권한이 없습니다. 설정 앱에서 iCloud를 꺼 두면 기록은 그 기기에만 남습니다.</li>
+</ul>
+
+<h2>2. 운영자가 수집하는 정보</h2>
+<p><strong>없습니다.</strong> 이름·이메일·전화번호·위치·광고 식별자를 비롯해 어떤 개인정보도 수집하지 않습니다.
+사용 기록을 분석하는 도구(애널리틱스)나 광고 SDK를 넣지 않았고, 사용자를 추적하지 않습니다.</p>
+
+<h2>3. 기기 밖으로 나가는 통신</h2>
+<p>앱이 외부와 통신하는 경우는 아래 두 가지뿐이며, 어느 쪽에도 개인을 식별할 수 있는 정보를 보내지 않습니다.</p>
+<table>
+  <tr><th>대상</th><th>보내는 것</th><th>목적</th></tr>
+  <tr>
+    <td>식품의약품안전처<br>식품영양성분DB<br>(공공데이터포털)</td>
+    <td>사용자가 입력한 <strong>음식 검색어</strong></td>
+    <td>음식의 열량·영양성분을 불러오기</td>
+  </tr>
+  <tr>
+    <td>Open Food Facts</td>
+    <td>카메라로 스캔한 <strong>바코드 번호</strong></td>
+    <td>제품의 영양정보를 불러오기</td>
+  </tr>
+</table>
+<p>두 곳 모두 조회 전용이며, 기록·체중·건강 데이터는 전송되지 않습니다.
+인터넷이 연결되지 않았거나 두 서비스가 응답하지 않아도 <strong>영양정보를 직접 입력해 앱을 그대로 사용할 수 있습니다.</strong></p>
+
+<h2>4. 기기 권한</h2>
+<table>
+  <tr><th>권한</th><th>쓰임새</th></tr>
+  <tr><td>건강(HealthKit)</td>
+      <td>사용자가 직접 켠 경우에만, <strong>체중</strong>을 건강 앱과 주고받습니다.
+          건강 데이터를 광고나 마케팅에 사용하지 않으며 제3자에게 제공하지 않습니다.</td></tr>
+  <tr><td>카메라</td>
+      <td>식품 <strong>바코드 스캔</strong>에만 사용합니다. 촬영 화면은 기기 안에서만 처리되며 저장하거나 전송하지 않습니다.</td></tr>
+  <tr><td>알림</td>
+      <td>사용자가 설정한 체중 기록 알림을 보냅니다. 기기 안에서 예약되며 외부로 나가지 않습니다.</td></tr>
+</table>
+<p>세 권한 모두 거부하거나 꺼 두어도 나머지 기능은 정상적으로 동작합니다.</p>
+
+<h2>5. 기록의 삭제</h2>
+<ul>
+  <li>개별 기록은 앱 안에서 직접 지울 수 있습니다.</li>
+  <li>앱을 삭제하면 기기에 저장된 기록이 함께 사라집니다.</li>
+  <li>iCloud에 동기화된 기록은 <em>설정 → [사용자 이름] → iCloud → 저장 공간 관리</em>에서 지울 수 있습니다.
+      이 데이터는 사용자 본인의 iCloud에 있으므로 운영자에게 요청할 필요가 없고, 운영자가 대신 지울 수도 없습니다.</li>
+</ul>
+
+<h2>6. 제3자 제공 및 국외 이전</h2>
+<p>운영자는 수집하는 정보가 없으므로 제3자에게 제공하는 정보도 없습니다.
+iCloud 동기화는 사용자와 Apple 사이에서 이루어지며,
+자세한 내용은 <a href="https://www.apple.com/kr/legal/privacy/">Apple 개인정보 보호 정책</a>을 참고하십시오.</p>
+
+<h2>7. 아동의 개인정보</h2>
+<p>이 앱은 만 14세 미만 아동을 대상으로 하지 않으며, 아동으로부터 개인정보를 수집하지 않습니다.</p>
+
+<h2>8. 의료 조언이 아님</h2>
+<p>앱이 계산해 보여 주는 BMI·기초대사량·총대사량 등은 사용자가 입력한 값에 근거한
+<strong>참고 수치</strong>이며, 의학적 진단이나 처방이 아닙니다. 건강에 관한 판단은 의료 전문가와 상의하십시오.</p>
+
+<h2>9. 데이터 출처</h2>
+<ul>
+  <li>식품 영양정보 — 식품의약품안전처 <em>식품영양성분DB정보</em>, 공공데이터포털(data.go.kr) 제공</li>
+  <li>바코드 제품정보 — <a href="https://world.openfoodfacts.org/">Open Food Facts</a>,
+      <a href="https://opendatacommons.org/licenses/odbl/1-0/">ODbL 1.0</a> 라이선스</li>
+</ul>
+
+<h2>10. 방침의 변경</h2>
+<p>내용이 바뀌면 이 페이지에 변경된 방침과 시행일을 게시합니다.</p>
+
+<h2>11. 문의</h2>
+<p>개인정보 처리에 관한 문의는 아래로 보내 주십시오.</p>
+<ul>
+  <li>운영자: 박준철</li>
+  <li>이메일: <a href="mailto:parkjuncheol77@gmail.com">parkjuncheol77@gmail.com</a></li>
+</ul>
+
+<footer>FitOnMax · 최종 수정 2026년 9월 25일</footer>
+
+</body>
+</html>
